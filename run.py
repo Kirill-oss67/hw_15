@@ -1,4 +1,3 @@
-from utils import sqlite3_start_connection
 
 query_1 = """"CREATE TABLE colors ( id INTEGER PRIMARY KEY AUTOINCREMENT , color VARCHAR(50) )"""
 # Coздаем таблицу для связки один ко многим с цветами
